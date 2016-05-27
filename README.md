@@ -1,5 +1,7 @@
 #NEI: Exploratory Data Analysis
 
+##Introduction
+
 Data is taken from [National Emissions Inventory](https://www.epa.gov/air-emissions-inventories). Graphs are created using the base package and [ggplot2](http://ggplot2.org/) package.
 
 Graphs are created to address the following questions:
@@ -26,6 +28,34 @@ The scripts will do the following:
 4. Get the subset of data that relates to the question.
 5. Aggregate the data. Get the sum of emissions for each year.
 6. Plot the data.
+
+----------
+
+## Results
+
+Have total emissions from PM2.5 decreased in the United States from 1999 to 2008?
+
+![plot 1](plot1.png)
+
+Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (fips == "24510") from 1999 to 2008?
+
+![plot 2](plot2.png)
+
+Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999–2008 for Baltimore City? Which have seen increases in emissions from 1999–2008?
+
+![plot 3](plot3.png)
+
+Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
+
+![plot 4](plot4.png)
+
+How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City?
+
+![plot 5](plot5.png)
+
+Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (fips == "06037"). Which city has seen greater changes over time in motor vehicle emissions?
+
+![plot 6](plot6.png)
 
 ----------
 
