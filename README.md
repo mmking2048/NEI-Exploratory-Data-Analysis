@@ -1,6 +1,6 @@
-#NEI: Exploratory Data Analysis
+# NEI: Exploratory Data Analysis
 
-##Introduction
+## Introduction
 
 Data is taken from [National Emissions Inventory](https://www.epa.gov/air-emissions-inventories). Graphs are created using the base package and [ggplot2](http://ggplot2.org/) package.
 
